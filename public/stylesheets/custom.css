@@ -1,0 +1,117 @@
+/* Main Styling */
+
+.container {
+	width: 710px;
+	margin: 0 auto;
+	text-align: left;
+}
+body {
+	background: #0092BC;
+	text-align: center;
+}
+header {
+	padding-top: 20px;
+	overflow: hidden;
+	height: 85px;
+	line-height: 85px;
+}
+header img {
+	padding: 1em;
+	background: #fff;
+	float: left;
+}
+footer{
+	text-align: center;
+	margin-top: 10px;
+	width: 710px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section {
+	margin-top: 1em;
+	font-size: 120%;
+	padding: 20px;
+	background: #fff;
+}
+section h1 {
+	font-size: 200%;
+}
+
+/* Links */
+a{
+	color: #0092BC;
+	text-decoration: none;
+}
+a:hover {
+	color: #0092BC;
+	text-decoration: underline;
+}
+a:visited {
+	color: #0092BC;
+}
+
+/* Navigation */
+nav {
+	float: right;
+}
+nav {
+	background-color: white;
+	padding: 0 0.7em;
+	white-space: nowrap;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+nav ul li {
+	list-style-type: none;
+	display: inline;
+	padding: 0.2em 0;
+}
+nav ul li a {
+	padding: 0 5px;
+	font-weight: bold;
+}
+nav ul li a:visited {
+	color: #0092BC;
+}
+nav ul li a:hover {
+	text-decoration: underline;
+}
+footer nav{
+	float: none;
+}
+
+/* Sign up button */
+a.signup_button { 
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	width: 190px;
+	color: #fff;
+	background: #0092BC;
+	font-size: 150%;
+	font-weight:
+	bold; padding: 20px;
+}
+
+/* Round corners */
+.round {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+nav.round {
+	height: 45px;
+	overflow: hidden;
+}
+nav.round ul {
+	height: 45px;
+	line-height: 45px;
+}
+nav.round li {
+	height: 45px;
+	line-height: 45px;
+	padding: 0;
+}
