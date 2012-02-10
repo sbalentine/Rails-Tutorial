@@ -1,1 +1,15 @@
-<%= @user.name %>, <%= @user.email %>
+<table class= "profile" summary="Profile Information">
+	<tr>
+		<td class="main">
+			<h1>
+				<%= @user.email %>
+				<%= @user.name %>
+			</h1>
+		</td>
+		<td class="sidebar round">
+			<strong>Full Name</strong> <%= @user.name %><br />
+			<strong>Email </strong> <%= @user.email %><br />
+			<strong>URL</strong> <%= link_to user_path(@user), @user%>
+		</td>
+	</tr>
+</table>
